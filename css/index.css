@@ -1,0 +1,51 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+nav{
+	display: flex;
+	justify-content: space-between;
+	border: 1px solid black;
+	padding: 20px;
+}
+.left img{
+	width: 40px;
+	align-items: center;
+}
+a{
+	padding: 20px;
+	text-decoration: none;
+	color: black;
+}
+#user-logo{
+	width: 20px;
+}
+.right img{
+	width: 40px;
+}
+.quick-order{
+	height: 90px;
+	background-color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: white;
+	padding: 10px 20px;
+}
+.quick-order-text{
+	color: white;
+	padding: 0px 30px;
+}
+.quick-order-btn{
+	background-color: red;
+	color: white;
+	padding: 10px 30px;
+	border-radius: 30px;
+	border: none;
+}
+.img{
+        margin: auto;
+        width: 100%;
+        height: auto;
+}
+@import url('register.css');
